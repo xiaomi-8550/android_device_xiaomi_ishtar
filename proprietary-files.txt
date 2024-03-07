@@ -1042,9 +1042,6 @@ odm/firmware/ishtar_wide_bu24532_ois.pher
 odm/firmware/ishtar_wide_bu24532_ois.prog
 odm/firmware/stmvl53l5.bin
 
-# CIT Sensor (Config)
-odm/etc/cit_param_config.json
-
 # Display (Calibration)
 odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_m1_42_02_0a_dsc_cmd_mi.xml
@@ -1097,6 +1094,15 @@ odm/lib64/libgf_hal.so
 # Media (Dolby Vision)
 odm/etc/dolby/dax-default.xml
 odm/etc/dolby_vision.cfg
+
+# Sensors (CIT)
+odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
+odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
+odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
+odm/etc/cit_param_config.json
+odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 # Sensors (Config)
 odm/etc/sensors/config/ak991x_dri_0.json
