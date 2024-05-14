@@ -16,3 +16,13 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/ishtar-kernel
+
+# Overlays
+PRODUCT_PACKAGES += \
+    IshtarFrameworks \
+    IshtarSettings2304FPN6DC \
+    IshtarSettings2304FPN6DG \
+    IshtarSettingsProvider \
+    IshtarSystemUI \
+    IshtarWifiRes \
+    IshtarWifiResMainline \
