@@ -1,6 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=Xiaomi 13 Ultra
 
+# Display
+ro.vendor.touchfeature.type=183
+
 # Marketname
 ro.product.marketname=Xiaomi 13 Ultra
 
