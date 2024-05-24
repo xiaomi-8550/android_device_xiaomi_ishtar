@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 Paranoid Android
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Xiaomi Ishtar Parts</string>
+
+    <!-- Camera Aperture -->
+    <string name="cam_aperture_toggle_title">Camera Aperture</string>
+</resources>
