@@ -666,6 +666,7 @@ odm/etc/camera/vidhance_calibration
 odm/etc/camera/xiaomiSceneDetection.xml
 odm/etc/camera/xmi_slmt_4x_1080p.dlc
 odm/etc/camera/xmi_slmt_4x_720p.dlc
+odm/etc/init/init.vl53l5.rc
 odm/etc/init/vendor.qti.camera.provider-service_64.rc
 odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 odm/etc/vintf/manifest/vendor.qti.camera.provider.xml
@@ -1025,6 +1026,9 @@ odm/lib64/libxmi_slow_motion_triger.so
 odm/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 odm/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
+odm/lib64/vl53l5.core.so
+odm/lib64/vl53l5.hal@1.0.so
+odm/lib64/vl53l5.hal@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 
 # Camera (Firmware)
