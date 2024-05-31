@@ -9,3 +9,6 @@ ro.product.marketname=Xiaomi 13 Ultra
 
 # USB
 vendor.usb.product_string=Xiaomi 13 Ultra
+
+# NFC
+ro.hardware.nfc=ST_NFC
