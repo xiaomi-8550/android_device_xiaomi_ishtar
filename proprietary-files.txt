@@ -1188,19 +1188,14 @@ odm/firmware/st_fts_m1.ftb
 odm/firmware/stm_fts_production_limits.csv
 
 # Touchscreen (TouchFeature)
-odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
 odm/bin/touch_raw
 odm/bin/touch_report
 odm/bin/toucheventcheck
 odm/bin/touchsensor
-odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
-odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 odm/firmware/film_model.tflite
 odm/firmware/glove_model.tflite
 odm/firmware/water_check.tflite
-odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 odm/lib64/libtensorflowlite_c.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
 # Vibrator (Effects)
 odm/firmware/0_click_P_RTP.bin:vendor/firmware/0_click_P_RTP.bin
