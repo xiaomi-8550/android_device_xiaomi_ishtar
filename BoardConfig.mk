@@ -13,7 +13,12 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 530
 
 # Kernel Modules
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += fts_touch_spi.ko
+device_second_stage_modules := \
+    fts_touch_spi.ko \
+    xiaomi_touch.ko
+
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := ishtar
