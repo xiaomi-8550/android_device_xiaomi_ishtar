@@ -17,6 +17,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/ishtar-kernel
 
+# NFC
+TARGET_USES_ST_NFC := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     IshtarFrameworks \
