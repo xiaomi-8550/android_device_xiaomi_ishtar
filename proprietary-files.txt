@@ -1098,15 +1098,6 @@ odm/etc/dolby_vision.cfg
 # Sensors
 odm/lib64/libssccalapi@2.0.so
 
-# Sensors (CIT)
-odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
-odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
-odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
-odm/etc/cit_param_config.json
-odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
-
 # Sensors (Config)
 odm/etc/sensors/config/ak991x_dri_0.json
 odm/etc/sensors/config/chre_dynamic_sensors.json
