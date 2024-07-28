@@ -1,2 +1,5 @@
 # NFC
 ro.vendor.se.chip.model=ST54K
+
+# Sensors
+ro.vendor.sensors.notifier.light_sensors=33171027,33171111
