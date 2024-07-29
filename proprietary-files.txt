@@ -1095,6 +1095,9 @@ odm/lib64/libgf_hal.so
 odm/etc/dolby/dax-default.xml
 odm/etc/dolby_vision.cfg
 
+# Sensors
+odm/lib64/libssccalapi@2.0.so
+
 # Sensors (CIT)
 odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
 odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
