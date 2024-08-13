@@ -14,9 +14,10 @@ TARGET_SCREEN_DENSITY := 530
 
 # Kernel Modules
 device_second_stage_modules := \
-    fts_touch_spi.ko \
-    xiaomi_touch.ko
+    $(KERNEL_MODULES_OUT)/fts_touch_spi.ko \
+    $(KERNEL_MODULES_OUT)/xiaomi_touch.ko
 
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES += $(device_second_stage_modules)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 
