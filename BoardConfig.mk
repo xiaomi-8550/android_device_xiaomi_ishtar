@@ -12,6 +12,10 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 530
 
+# HIDL
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/configs/vintf/manifest_ishtar.xml
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := ishtar
 
