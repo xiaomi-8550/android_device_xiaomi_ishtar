@@ -5,14 +5,6 @@ odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
 odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
 
 # ADSP (Modules)
-odm/etc/audio/misound_karaoke_res.bin
-odm/etc/audio/misound_karaokemix_res.bin
-odm/etc/audio/misound_res_headphone.bin
-odm/etc/audio/misound_res_spk.bin
-odm/etc/audio/misound_res_spk4ch.bin
-odm/etc/audio/misound_res_spk_power_game.bin
-odm/etc/audio/misound_res_spk_power_sva.bin
-odm/etc/audio/misound_res_spk_power_video.bin
 odm/lib/rfsa/adsp/libaisupernight_cdsp_skel.so
 odm/lib/rfsa/adsp/libaisupernight_ellc_cdsp_skel.so
 odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so
@@ -129,6 +121,20 @@ vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
+
+# Audio (Calibration)
+odm/etc/audio/hrtf5c.bin
+odm/etc/audio/misound_karaoke_res.bin
+odm/etc/audio/misound_karaokemix_res.bin
+odm/etc/audio/misound_res_headphone.bin
+odm/etc/audio/misound_res_spk.bin
+odm/etc/audio/misound_res_spk4ch.bin
+odm/etc/audio/misound_res_spk_power_game.bin
+odm/etc/audio/misound_res_spk_power_sva.bin
+odm/etc/audio/misound_res_spk_power_video.bin
+odm/etc/audio/misoundsa_spk_config.bin
+odm/etc/audio/silent-3sec.wav
+vendor/etc/hrtf5c.bin
 
 # Audio (Configs)
 odm/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml
