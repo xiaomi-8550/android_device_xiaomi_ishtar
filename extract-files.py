@@ -45,6 +45,14 @@ blob_fixups: blob_fixups_user_type = {
             'xml version',
         ),
     (
+        'odm/etc/camera/mihal_overlap/overlap_config.json',
+        'odm/etc/camera/mihal_overlap/proj_overlap_config.json'
+    ): blob_fixup()
+        .regex_replace(
+            'com.instagram.android', 
+            ''
+        ),
+    (
         'odm/lib64/libailab_rawhdr.so',
         'odm/lib64/libxmi_high_dynamic_range_cdsp.so',
     ): blob_fixup()
