@@ -71,7 +71,7 @@ odm/mount/camera/lib/rfsa/adsp/bm3a73v08s11n63.bin:vendor/lib/rfsa/adsp/bm3a73v0
 odm/mount/camera/lib/rfsa/adsp/libCalculator_skel.so:vendor/lib/rfsa/adsp/libCalculator_skel.so
 odm/mount/camera/lib/rfsa/adsp/libQnnHtpV73.so:vendor/lib/rfsa/adsp/libQnnHtpV73.so
 odm/mount/camera/lib/rfsa/adsp/libQnnHtpV73Skel.so:vendor/lib/rfsa/adsp/libQnnHtpV73Skel.so
-odm/mount/camera/lib/rfsa/adsp/libQnnSaver.so:vendor/lib/rfsa/adsp/libQnnSaver.so
+odm/mount/camera/lib/rfsa/adsp/libQnnSaver.so:vendor/lib/rfsa/adsp/libQnnSaver.so;MODULE_SUFFIX=_adsp
 odm/mount/camera/lib/rfsa/adsp/libSnpeDspV65Skel.so:vendor/lib/rfsa/adsp/libSnpeDspV65Skel.so
 odm/mount/camera/lib/rfsa/adsp/libSnpeDspV66Skel.so:vendor/lib/rfsa/adsp/libSnpeDspV66Skel.so
 odm/mount/camera/lib/rfsa/adsp/libSnpeHtpV68Skel.so:vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so
