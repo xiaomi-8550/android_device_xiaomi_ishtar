@@ -14,9 +14,6 @@ $(call inherit-product, vendor/xiaomi/ishtar/ishtar-vendor.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# NFC
-TARGET_USES_ST_NFC := true
-
 # Overlays
 PRODUCT_PACKAGES += \
     IshtarFrameworks \
