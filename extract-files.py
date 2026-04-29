@@ -19,7 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/xiaomi/sm8550-common',
-    'vendor/qcom/common/vendor/adreno-t',
+    'vendor/qcom/common/vendor/adreno/t',
     'vendor/qcom/common/vendor/display/5.15',
 ]
 
